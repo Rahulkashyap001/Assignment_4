@@ -1,0 +1,17 @@
+#Question :- Write a Python program to square the elements of a list using map() function.
+             BY:- Input Method
+
+
+
+#Solution :- 
+
+size=int(input("Enter a Size :- "))
+lst=[]
+for i in range(size):
+    element=int(input("Enetr the Element :- "))
+    lst.append(element)
+print(lst)
+result = map(lambda  x:x**2,lst)
+print(list(result))
+
+
